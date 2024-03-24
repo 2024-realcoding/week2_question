@@ -41,4 +41,4 @@ jobs:
         pylint *.py
     - name: Test with pytest
       run: |
-        pytest
+        pytest *.py
