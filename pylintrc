@@ -1,9 +1,8 @@
 # This Pylint rcfile contains a best-effort configuration to uphold the
 # best-practices and style described in the Google Python style guide:
-#   https://google.github.io/styleguide/pyguide.html
-#
+# https://google.github.io/styleguide/pyguide.html
 # Its canonical open-source location is:
-#   https://google.github.io/styleguide/pylintrc
+# https://google.github.io/styleguide/pylintrc
 
 [MAIN]
 
@@ -12,14 +11,14 @@ ignore=third_party
 
 # Files or directories matching the regex patterns are skipped. The regex
 # matches against base names, not paths.
-ignore-patterns=
+ignore-patterns=""
 
 # Pickle collected data for later comparisons.
 persistent=no
 
 # List of plugins (as comma separated values of python modules names) to load,
 # usually to register additional checkers.
-load-plugins=
+load-plugins=yes
 
 # Use multiple processes to speed up Pylint.
 jobs=4
